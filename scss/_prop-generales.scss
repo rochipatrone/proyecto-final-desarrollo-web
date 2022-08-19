@@ -20,6 +20,20 @@ header {
         font-weight: bold;
     }
 }
+/***** TITULO PAGINAS *****/
+.tituloPaginas {
+    background-color: $gris;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $tipografiaTitulos;
+    margin: 0;
+}
+/***** FONDO PAGINAS *****/
+.fondoPaginas {
+    background-image: url(../imagenes/Titanium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /***** PIE DE PAGINA *****/
 .piePagina {
     display: grid;

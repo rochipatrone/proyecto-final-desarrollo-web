@@ -1,0 +1,51 @@
+.seccionPerfil {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .contenedorImagenPerfil {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .fotoPerfil {
+        width: 500px;
+        border: 2px solid $azul;
+        border-radius: 10px;
+    }
+
+    .tarjetasTiempo {
+        margin-left: 20px;
+        background-color: $azul;
+        border-radius: 10px;
+        opacity: 0.9;
+
+        .tituloTarjetas {
+            padding: 5px;
+            color: $colorTexto;
+        }
+        .infoTarjetas {
+            color: $colorTexto;
+            padding: 5px;
+        }
+    }
+    .lineaDiv {
+        border-left: 5px solid $azul;
+        border-radius: 3px;
+    }
+    .tituloTarjetas::before {
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background-color: $gris;
+        border-radius: 50%;
+        border: 5px solid $gris;
+        margin-left: -35px;
+        margin-top: 15px;
+        z-index: 1;
+    }
+}

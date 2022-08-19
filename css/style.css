@@ -16,6 +16,20 @@ header {
     color: #8d99ae;
     font-weight: bold; }
 
+/***** TITULO PAGINAS *****/
+.tituloPaginas {
+  background-color: #8d99ae;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Mukta", sans-serif;
+  margin: 0; }
+
+/***** FONDO PAGINAS *****/
+.fondoPaginas {
+  background-image: url(../imagenes/Titanium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 /***** PIE DE PAGINA *****/
 .piePagina {
   display: grid;
@@ -111,3 +125,43 @@ header {
   right: 10px;
   width: 90px;
   height: 120px; }
+
+.seccionPerfil {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .seccionPerfil .contenedorImagenPerfil {
+    display: grid;
+    justify-items: center;
+    align-items: center; }
+  .seccionPerfil .fotoPerfil {
+    width: 500px;
+    border: 2px solid #2b2d42;
+    border-radius: 10px; }
+  .seccionPerfil .tarjetasTiempo {
+    margin-left: 20px;
+    background-color: #2b2d42;
+    border-radius: 10px;
+    opacity: 0.9; }
+    .seccionPerfil .tarjetasTiempo .tituloTarjetas {
+      padding: 5px;
+      color: #a3aec1; }
+    .seccionPerfil .tarjetasTiempo .infoTarjetas {
+      color: #a3aec1;
+      padding: 5px; }
+  .seccionPerfil .lineaDiv {
+    border-left: 5px solid #2b2d42;
+    border-radius: 3px; }
+  .seccionPerfil .tituloTarjetas::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #8d99ae;
+    border-radius: 50%;
+    border: 5px solid #8d99ae;
+    margin-left: -35px;
+    margin-top: 15px;
+    z-index: 1; }

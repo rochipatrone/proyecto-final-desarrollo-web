@@ -200,7 +200,7 @@ header {
     display: flex;
     flex-direction: column;
     border: 3px solid #2b2d42;
-    width: 50%;
+    width: 400px;
     padding: 10px;
     text-align: center;
     background-color: #2b2d42;
@@ -247,6 +247,4 @@ header {
     margin-bottom: 10px; }
   .seccionClientes {
     display: flex;
-    flex-wrap: wrap; }
-  .contenedorFormulario {
-    width: 80%; } }
+    flex-wrap: wrap; } }

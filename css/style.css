@@ -165,3 +165,16 @@ header {
     margin-left: -35px;
     margin-top: 15px;
     z-index: 1; }
+
+.seccionTrabajos {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .seccionTrabajos .tarjetasTrabajos {
+    text-align: center;
+    border: 2px solid #2b2d42;
+    box-shadow: 3px 3px 3px #2b2d42; }
+  .seccionTrabajos .tituloTarjetas {
+    background-color: #f8f32b; }

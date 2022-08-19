@@ -1,0 +1,23 @@
+/***** GOOGLE FONTS *****/
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/***** PROPIEDADES GENERALES *****/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-family: $tipografiaTextos;
+}
+
+/***** MENU DE NAVEGACION *****/
+header {
+    background-color: $azul;
+
+    a.menu {
+        color: $gris;
+        font-weight: bold;
+    }
+}
+

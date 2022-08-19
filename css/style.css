@@ -247,4 +247,6 @@ header {
     margin-bottom: 10px; }
   .seccionClientes {
     display: flex;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .contenedorFormulario {
+    width: 300px; } }

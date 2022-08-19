@@ -1,0 +1,20 @@
+.seccionClientes {
+    display: flex;
+    justify-content: space-around;
+
+    .contenedorClientes {
+        display: grid;
+        justify-items: center;
+
+        .logoClientes {
+            width: 250px;
+        }
+    }
+
+    .textoClientes {
+        width: 300px;
+        text-align: center;
+        color: $colorTexto;
+        font-size: 20px;
+    }
+}

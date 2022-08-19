@@ -178,3 +178,17 @@ header {
     box-shadow: 3px 3px 3px #2b2d42; }
   .seccionTrabajos .tituloTarjetas {
     background-color: #f8f32b; }
+
+.seccionClientes {
+  display: flex;
+  justify-content: space-around; }
+  .seccionClientes .contenedorClientes {
+    display: grid;
+    justify-items: center; }
+    .seccionClientes .contenedorClientes .logoClientes {
+      width: 250px; }
+  .seccionClientes .textoClientes {
+    width: 300px;
+    text-align: center;
+    color: #a3aec1;
+    font-size: 20px; }

@@ -15,3 +15,99 @@ header {
   header a.menu {
     color: #8d99ae;
     font-weight: bold; }
+
+/***** PIE DE PAGINA *****/
+.piePagina {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #2b2d42;
+  color: #ffffff;
+  padding-top: 10px;
+  text-align: center; }
+
+/***** SECCION PRESENTACION *****/
+.seccionPresentacion {
+  background-image: url(../imagenes/servidores01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px; }
+  .seccionPresentacion .titulos {
+    color: #2b2d42; }
+
+/***** SECCION TARJETAS *****/
+.seccionTarjetas {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-bottom: 20px; }
+  .seccionTarjetas .contenedorTarjetas {
+    width: 300px;
+    height: 350px; }
+  .seccionTarjetas .tarjetas {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d; }
+  .seccionTarjetas .tarjetaDelante, .seccionTarjetas .tarjetaDetras {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; }
+  .seccionTarjetas .tarjetaDelante {
+    display: grid;
+    justify-items: center;
+    align-items: center; }
+  .seccionTarjetas .logoTarjetas {
+    width: 200px; }
+  .seccionTarjetas .pieTarjetas {
+    font-size: 1rem; }
+  .seccionTarjetas .tarjetaDetras {
+    text-align: center;
+    transform: rotateY(180deg);
+    padding: 10px;
+    place-content: center; }
+  .seccionTarjetas .contenedorTarjetas:hover .tarjetas {
+    transform: rotateY(-180deg); }
+
+/***** SECCION COLOR *****/
+.seccionColor {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #8d99ae;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .seccionColor .textoSolucion {
+    font-size: 3rem;
+    text-align: center; }
+
+/***** SECCION CERTIFICACIONES *****/
+.seccionCertificaciones {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .seccionCertificaciones .titulosCertificaciones {
+    display: grid;
+    justify-items: center;
+    align-items: center; }
+    .seccionCertificaciones .titulosCertificaciones h4 {
+      font-size: 2rem;
+      text-align: center; }
+    .seccionCertificaciones .titulosCertificaciones p {
+      text-align: center; }
+  .seccionCertificaciones .contenedorLogos {
+    display: flex;
+    justify-content: space-between;
+    align-content: center; }
+  .seccionCertificaciones .logoCert {
+    width: 100px; }
+
+/***** BOTON GO UP *****/
+.goUp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 90px;
+  height: 120px; }

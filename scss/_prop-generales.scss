@@ -20,4 +20,13 @@ header {
         font-weight: bold;
     }
 }
-
+/***** PIE DE PAGINA *****/
+.piePagina {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: $azul;
+    color: $blanco;
+    padding-top: 10px;
+    text-align: center;
+}

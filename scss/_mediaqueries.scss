@@ -1,0 +1,46 @@
+@media (min-width: 300px) and (max-width: 1260px) {
+    .seccionTarjetas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contenedorLogos {
+        display: flex;
+        flex-wrap: wrap;
+
+        .uno {
+            display: none;
+        }
+    }
+
+    .contenedorGoUp {
+        display: none;
+    }
+
+    .seccionPerfil {
+        display: flex;
+        flex-wrap: wrap;
+
+        .lineaTiempo {
+            margin-top: 10px;
+        }
+    }
+
+    .seccionTrabajos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tarjetasTrabajos {
+        margin-bottom: 10px;
+    }
+
+    .seccionClientes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contenedorFormulario {
+        width: 80%;
+    }
+}

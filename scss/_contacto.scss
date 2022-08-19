@@ -1,0 +1,41 @@
+.seccionFormulario {
+    display: grid;
+    justify-items: center;
+
+    .contenedorFormulario {
+        display: flex;
+        flex-direction: column;
+        border: 3px solid $azul;
+        width: 400px;
+        padding: 10px;
+        text-align: center;
+        background-color: $azul;
+        color: $blanco;
+        border-radius: 5px;
+        opacity: 0.9;
+
+        .tituloFormulario {
+            font-size: 25px;
+        }
+
+        .campo {
+            padding: 5px;
+            margin-bottom: 8px;
+            border-radius: 5px;
+            font-family: $tipografiaTextos;
+        }
+    }
+
+    .contenedorBotones {
+        display: flex;
+        justify-content: space-around;
+
+        .boton {
+            width: 100px;
+            border: none;
+            background-color: $amarillo;
+            border-radius: 3px;
+            font-family: $tipografiaTextos;
+        }
+    }
+}

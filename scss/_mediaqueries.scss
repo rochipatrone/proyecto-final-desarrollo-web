@@ -2,6 +2,10 @@
     .seccionTarjetas {
         display: flex;
         flex-wrap: wrap;
+
+        .contenedorTarjetas {
+            margin-left: -35px;
+        }
     }
 
     .contenedorLogos {
@@ -40,8 +44,5 @@
         flex-wrap: wrap;
     }
 
-    .contenedorFormulario {
-        width: 300px;
-    }
 
 }

@@ -200,7 +200,7 @@ header {
     display: flex;
     flex-direction: column;
     border: 3px solid #2b2d42;
-    width: 400px;
+    width: auto;
     padding: 10px;
     text-align: center;
     background-color: #2b2d42;
@@ -213,7 +213,8 @@ header {
       padding: 5px;
       margin-bottom: 8px;
       border-radius: 5px;
-      font-family: "Rubik", sans-serif; }
+      font-family: "Rubik", sans-serif;
+      width: auto; }
   .seccionFormulario .contenedorBotones {
     display: flex;
     justify-content: space-around; }
@@ -228,6 +229,8 @@ header {
   .seccionTarjetas {
     display: flex;
     flex-wrap: wrap; }
+    .seccionTarjetas .contenedorTarjetas {
+      margin-left: -35px; }
   .contenedorLogos {
     display: flex;
     flex-wrap: wrap; }
@@ -247,6 +250,4 @@ header {
     margin-bottom: 10px; }
   .seccionClientes {
     display: flex;
-    flex-wrap: wrap; }
-  .contenedorFormulario {
-    width: 300px; } }
+    flex-wrap: wrap; } }

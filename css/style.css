@@ -226,6 +226,10 @@ header {
       font-family: "Rubik", sans-serif; }
 
 @media (min-width: 300px) and (max-width: 1260px) {
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 2; }
   .seccionTarjetas {
     display: flex;
     flex-wrap: wrap; }

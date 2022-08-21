@@ -10,6 +10,7 @@
         color: $azul;
     }
 }
+
 /***** SECCION TARJETAS *****/
 .seccionTarjetas {
     display: flex;
@@ -30,7 +31,8 @@
         transform-style: preserve-3d;
     }
 
-    .tarjetaDelante, .tarjetaDetras {
+    .tarjetaDelante,
+    .tarjetaDetras {
         width: 100%;
         height: 100%;
         position: absolute;
@@ -59,11 +61,12 @@
     }
 
     @media (min-width: 1260px) {
-    .contenedorTarjetas:hover .tarjetas {
-        transform: rotateY(-180deg);
+        .contenedorTarjetas:hover .tarjetas {
+            transform: rotateY(-180deg);
+        }
     }
 }
-}
+
 /***** SECCION COLOR *****/
 .seccionColor {
     display: grid;
@@ -78,6 +81,7 @@
         text-align: center;
     }
 }
+
 /***** SECCION CERTIFICACIONES *****/
 .seccionCertificaciones {
     margin-top: 30px;
@@ -92,7 +96,7 @@
             font-size: 2rem;
             text-align: center;
         }
-        
+
         p {
             text-align: center;
         }
@@ -108,6 +112,7 @@
         width: 100px;
     }
 }
+
 /***** BOTON GO UP *****/
 .goUp {
     position: fixed;

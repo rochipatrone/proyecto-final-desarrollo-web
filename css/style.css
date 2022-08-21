@@ -83,8 +83,9 @@ header {
     transform: rotateY(180deg);
     padding: 10px;
     place-content: center; }
-  .seccionTarjetas .contenedorTarjetas:hover .tarjetas {
-    transform: rotateY(-180deg); }
+  @media (min-width: 1260px) {
+    .seccionTarjetas .contenedorTarjetas:hover .tarjetas {
+      transform: rotateY(-180deg); } }
 
 /***** SECCION COLOR *****/
 .seccionColor {

@@ -58,9 +58,11 @@
         place-content: center;
     }
 
+    @media (min-width: 1260px) {
     .contenedorTarjetas:hover .tarjetas {
         transform: rotateY(-180deg);
     }
+}
 }
 /***** SECCION COLOR *****/
 .seccionColor {

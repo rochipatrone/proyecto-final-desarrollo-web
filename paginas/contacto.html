@@ -53,22 +53,19 @@
 
     <h1 class="tituloPaginas">Contacto</h1>
 
-    <form name="contacto" method="post" class="seccionFormulario pt-5 pb-5 fondoPaginas" data-netlify="true">
-        <div class="contenedorFormulario">
-            <h2 class="tituloFormulario">Deja tu mensaje o consulta.</h2>
-            <p>Te estaré respondiendo lo más rápido posible.</p>
-            <input type="text" class="campo" name="name" placeholder="Ingrese su nombre">
-            <input type="text" class="campo" name="name" placeholder="Ingrese su apellido">
-            <input type="email" class="campo" name="mail" placeholder="Ingrese su email">
-            <textarea class="campo" name="message" id="" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
-            <div class="contenedorBotones pt-2 pb-2">
-                <input type="submit" class="boton">
-                <input type="reset" class="boton">
-<!--                 <button class="boton">Enviar</button>
-                <button class="boton">Borrar todo</button> -->
-            </div>
-        </div>
-    </form>
+
+
+    <section class="seccionFormulario fondoPaginas">
+        <form>
+            <h2 class="tituloFormulario">Deja tu mensaje o consulta</h2>
+            <input type="text" name="nombre" placeholder="Ingrese su nombre">
+            <input type="text" name="apellido" placeholder="Ingrese su apellido">
+            <input type="email" name="mail" placeholder="Ingrese su email">
+            <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Deje su mensaje aquí"></textarea>
+            <input type="submit" class="boton">
+            <input type="reset" class="boton">
+        </form>
+    </section>
 
 
 

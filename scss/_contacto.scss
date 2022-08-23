@@ -1,48 +1,52 @@
-   
-    form {
-        width: 400px;
-        margin: auto;
-        background: rgba(0, 0, 0, 0.4);
-        padding: 10px 20px;
-        box-sizing: border-box;
-        padding-top: 20px;
-        border-radius: 10px;
+   .seccionFormulario {
+       padding-top: 10px;
+       padding-bottom: 10px;
 
-        .tituloFormulario {
-            color: $blanco;
-            text-align: center;
-            font-size: 25px;
-            margin: 0;
-            padding-bottom: 20px;
-        }
+       form {
+           width: 400px;
+           margin: auto;
+           background: rgba(0, 0, 0, 0.4);
+           padding: 10px 20px;
+           box-sizing: border-box;
+           padding-top: 20px;
+           border-radius: 10px;
 
-        input,
-        textarea {
-            width: 100%;
-            margin-bottom: 20px;
-            padding: 5px;
-            box-sizing: border-box;
-            font-size: 15px;
-            border: none;
-            border-radius: 10px;
-        }
+           .tituloFormulario {
+               color: $blanco;
+               text-align: center;
+               font-size: 25px;
+               margin: 0;
+               padding-bottom: 20px;
+           }
 
-        textarea {
-            min-height: 100px;
-            max-height: 200px;
-            min-width: 100%;
-            font-size: 15px;
-        }
+           input,
+           textarea {
+               width: 100%;
+               margin-bottom: 20px;
+               padding: 5px;
+               box-sizing: border-box;
+               font-size: 15px;
+               border: none;
+               border-radius: 10px;
+           }
 
-        .boton {
-            background-color: $amarillo;
-            color: $azul;
-            padding: 20px;
-        }
-    }
+           textarea {
+               min-height: 100px;
+               max-height: 200px;
+               min-width: 100%;
+               font-size: 15px;
+           }
 
-    @media (max-width: 400px) {
-        form {
-            width: 300px;
-        }
-    }
+           .boton {
+               background-color: $amarillo;
+               color: $azul;
+               padding: 20px;
+           }
+       }
+   }
+
+   @media (max-width: 400px) {
+       form {
+           width: 300px;
+       }
+   }

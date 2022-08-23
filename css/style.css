@@ -195,38 +195,41 @@ header {
     color: #a3aec1;
     font-size: 15px; }
 
-form {
-  width: 400px;
-  margin: auto;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 10px 20px;
-  box-sizing: border-box;
-  padding-top: 20px;
-  border-radius: 10px; }
-  form .tituloFormulario {
-    color: #ffffff;
-    text-align: center;
-    font-size: 25px;
-    margin: 0;
-    padding-bottom: 20px; }
-  form input,
-  form textarea {
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 5px;
+.seccionFormulario {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .seccionFormulario form {
+    width: 400px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
     box-sizing: border-box;
-    font-size: 15px;
-    border: none;
+    padding-top: 20px;
     border-radius: 10px; }
-  form textarea {
-    min-height: 100px;
-    max-height: 200px;
-    min-width: 100%;
-    font-size: 15px; }
-  form .boton {
-    background-color: #f8f32b;
-    color: #2b2d42;
-    padding: 20px; }
+    .seccionFormulario form .tituloFormulario {
+      color: #ffffff;
+      text-align: center;
+      font-size: 25px;
+      margin: 0;
+      padding-bottom: 20px; }
+    .seccionFormulario form input,
+    .seccionFormulario form textarea {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 5px;
+      box-sizing: border-box;
+      font-size: 15px;
+      border: none;
+      border-radius: 10px; }
+    .seccionFormulario form textarea {
+      min-height: 100px;
+      max-height: 200px;
+      min-width: 100%;
+      font-size: 15px; }
+    .seccionFormulario form .boton {
+      background-color: #f8f32b;
+      color: #2b2d42;
+      padding: 20px; }
 
 @media (max-width: 400px) {
   form {

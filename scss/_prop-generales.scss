@@ -1,6 +1,7 @@
 /***** GOOGLE FONTS *****/
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
 /***** PROPIEDADES GENERALES *****/
 * {
     padding: 0;
@@ -20,6 +21,7 @@ header {
         font-weight: bold;
     }
 }
+
 /***** TITULO PAGINAS *****/
 .tituloPaginas {
     background-color: $gris;
@@ -28,12 +30,14 @@ header {
     font-family: $tipografiaTitulos;
     margin: 0;
 }
+
 /***** FONDO PAGINAS *****/
 .fondoPaginas {
     background-image: url(../imagenes/Titanium.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /***** PIE DE PAGINA *****/
 .piePagina {
     display: grid;

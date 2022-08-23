@@ -232,7 +232,7 @@ header {
       padding: 20px; }
 
 @media (max-width: 400px) {
-  form {
+  form.animate__animated.animate__pulse {
     width: 300px; } }
 
 @media (min-width: 300px) and (max-width: 1260px) {

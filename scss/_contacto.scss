@@ -46,7 +46,7 @@
    }
 
    @media (max-width: 400px) {
-       form {
+       form.animate__animated.animate__pulse {
            width: 300px;
        }
    }
